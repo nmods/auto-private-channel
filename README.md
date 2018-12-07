@@ -24,7 +24,8 @@ All commands start with `/8 private`
 | `remove`/`leave`/`delete` | `name` | Leaves a channel and removes it from autojoin config. | |
 | | `name` | Name of the private channel. Not case-sensitive | YES
 | empty | | Prints joined channels and autojoin-enabled channels into in-game chat |
-####examples
+
+#### examples
 `/8 private add MyChannel 1234 killian mystel` 
 `/8 private remove mychannel`
 `/8 private`
