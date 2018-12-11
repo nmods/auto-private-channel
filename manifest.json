@@ -1,15 +1,18 @@
 {
-    "files": {
-      "index.js": "4e9eff5b8130904f22bf431a7bb7c464f1fdf7e2dcb2527b243795304260f34d",
-      "module.json": "d4cf91daad144b9bf614c304047c39eb45b3dc4371696b47bc7c4569dd9d7bd5",
-      "config.json":{"overwrite": false, "hash": ["e41455fe151abd797cb3c4d4c031c8d2d5f7e17fb512a43fd11c8cd5145c0ca6"]}
-    },
-    "defs":{
-        "S_JOIN_PRIVATE_CHANNEL":2,
-        "S_LEAVE_PRIVATE_CHANNEL": 2,
-        "S_SYSTEM_MESSAGE":1,
-        "C_JOIN_PRIVATE_CHANNEL":1,
-        "C_CREATE_PRIVATE_CHANNEL":1,
-        "C_LEAVE_PRIVATE_CHANNEL":1
-    }
-  }
+	"files": {
+		"config.json": {
+			"overwrite": false,
+			"hash": "e41455fe151abd797cb3c4d4c031c8d2d5f7e17fb512a43fd11c8cd5145c0ca6"
+		},
+		"index.js": "c475cc228c4164290d92fe05c82f4b28fbe76b8bcf1c0f336809b318e7609ded",
+		"module.json": "633b14f762dbcfddec76e900dec665da265f41ed048fcecb40c28308ede111d7"
+	},
+	"defs": {
+		"C_CREATE_PRIVATE_CHANNEL": 1,
+		"C_JOIN_PRIVATE_CHANNEL": 1,
+		"C_LEAVE_PRIVATE_CHANNEL": 1,
+		"S_JOIN_PRIVATE_CHANNEL": 2,
+		"S_LEAVE_PRIVATE_CHANNEL": 2,
+		"S_SYSTEM_MESSAGE": 1
+	}
+}
