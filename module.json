@@ -1,4 +1,6 @@
 {
 	"disableAutoUpdate": false,
+	"author": "NMods",
+    "description": "Automates joining/creating private channels",
 	"servers": ["https://raw.githubusercontent.com/nmods/auto-private-channel/master/"]
 }

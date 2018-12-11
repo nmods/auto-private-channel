@@ -122,7 +122,7 @@ module.exports = function auto_private_channel(mod) {
 	mod.hook('S_SYSTEM_MESSAGE', 1, (event) => {
 		let entry = config[current]
 		if (!waitingTimeout) return
-		data = mod.parseSystemMessage(event.message);
+		let data = mod.parseSystemMessage(event.message);
 		if (data.id == 'SMT_CAHT_CHANNEL_NAME_IS_NONEXISTENT') {
 			clearTimeout(waitingTimeout)
 			createChannel(entry)
