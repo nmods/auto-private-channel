@@ -10,7 +10,7 @@ Opcodes for EU: (If NA, find out codes for yourself.)
 C_CREATE_PRIVATE_CHANNEL = 40660
 C_JOIN_PRIVATE_CHANNEL = 50494
 ```
-Add them to your `proxy\node_modules\tera-data\map\protocol.341697.map` file
+Add them to your `proxy\node_modules\tera-data\map\protocol.343315.map` file
 
 ### commands
 All commands start with `/8 private`
