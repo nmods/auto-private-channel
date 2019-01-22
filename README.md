@@ -7,8 +7,8 @@ EU and NA only.
 
 Opcodes for EU: (If NA, find out codes for yourself.)
 ```
-C_JOIN_PRIVATE_CHANNEL = 52374
-C_CREATE_PRIVATE_CHANNEL = 32054
+C_CREATE_PRIVATE_CHANNEL = 40660
+C_JOIN_PRIVATE_CHANNEL = 50494
 ```
 Add them to your `proxy\node_modules\tera-data\map\protocol.341697.map` file
 
