@@ -1,8 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const serverList = [
-	{ id: 27, name: 'Mystel' },
-	{ id: 26, name: 'Killian' },
+	{ id: 38, name: 'Mystel' },
 	{ id: 29, name: 'Seren' },
 	{ id: 28, name: 'Yurian' },
 	{ id: 90, name: 'Baldrov' },
